@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat & family= Noto+Serif:ital,wght@0,300;1,100 & family= PT+Serif:ital@1 & display= trocar");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #dcdcdc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+button .icon{
+    width: 40px;
+    height: 40px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    top: 100px;
+    color: azure;
+    background-color: black;
+}
+
+.menu-desktop {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 75%;
+    padding-top: 10px;
+}
+
+.logo{
+    width: 500px;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    height: 125%;
+    border: 50px solid transparent;
+    /* border-image: url("https://res.cloudinary.com/practicaldev/image/fetch/s--isLBn9ec--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://harnerdesigns.com/wp-content/uploads/2018/08/border.svg") 150 round; */
+}
+
+
+.texto p {
+    padding-bottom: 50px;
+    font-size: large;
+    line-height: 30px;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    border-radius: 35px 10em 10%;
+    box-shadow: 10px 20px rgb(160, 156, 156);
+    border: 1px solid black;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.fotoLivro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+
+.bt-link{
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.bt-link:hover{
+    background-color: gray;
+    color: aqua;
+}
+/* .fotoLivro img {
+    width: 400px;
+    height: 500px;
+    border-radius: 100px;
+} */
+
+figcaption {
+    text-align: center;
+    font-size: large;
+}
+
+.menu-desktop {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}

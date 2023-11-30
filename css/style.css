@@ -18,10 +18,12 @@ body {
     width: 100vw;
 }
 
-button .icon{
+button .icon {
     width: 40px;
     height: 40px;
+
 }
+
 .links {
     display: flex;
     flex-direction: row;
@@ -50,7 +52,7 @@ button .icon{
     padding-top: 10px;
 }
 
-.logo{
+.logo {
     width: 500px;
 }
 
@@ -74,7 +76,7 @@ button .icon{
     padding-right: 5px;
 }
 
-img {
+.imagem {
     width: 450px;
     height: 450px;
     border-radius: 35px 10em 10%;
@@ -100,7 +102,7 @@ img {
     height: 100%;
 }
 
-.bt-link{
+.bt-link {
     width: 70px;
     height: 20px;
     border-radius: 10px;
@@ -109,15 +111,10 @@ img {
     font-weight: 550;
 }
 
-.bt-link:hover{
+.bt-link:hover {
     background-color: gray;
     color: aqua;
 }
-/* .fotoLivro img {
-    width: 400px;
-    height: 500px;
-    border-radius: 100px;
-} */
 
 figcaption {
     text-align: center;
@@ -129,3 +126,21 @@ figcaption {
     display: flex;
     justify-content: space-between;
 }
+
+.bt-mostrar {
+    background-color: black;
+}
+
+/* .menu-mobile {
+    background-color: rgb(6, 85, 6);
+    width: 100vw;
+    height: calc(100vh - 100px);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s;
+} */

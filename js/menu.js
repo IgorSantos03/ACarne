@@ -1,33 +1,24 @@
-function mostrar() {
+function mostrarIndex() {
     html = ``;
-    html = `
-        <div><a href="autores.html"><Button class="bt-link">Autor</Button></a></div>
-        <div><a href="resumo.html"><button class="bt-link">Resumo</button></a></div>
-        <div><a href="professores.html"><button class="bt-link">professores</button></a></div>
-        <div><select name="cartas" id="cartas" onchange="location.href=this.value" class="bt-link">
-                <option value="">Cartas</option>
-                <option value="">Carta1</option>
-                <option value="">Carta2</option>
-            </select></div>
-        <div><a href="autores.html"><button class="bt-link">Alunos</button></a></div>
-    `
-    document.getElementById("foto").innerHTML = html;
+    html = `           
+    <div class="links">
+    <a href="#utf" onclick="window.location.reload()">Instituição</a>
+    <a href="#prof" onclick="window.location.reload()">Professores e Alunos</a>
+    <a href="#livro" onclick="window.location.reload()">Livro</a>
+    <a href="#personagens" onclick="window.location.reload()">Personagens</a>
+    <a href="#carta" onclick="window.location.reload()">Cartas</a>
+</div>
+`
+    document.getElementById("mostra").innerHTML = html;
     mudar();
 }
 
 function mudar() {
-
-    var html1 = ``;
-    var html1 = `
-    <button type="button" id="bt-sair" onclick="limpa()" class="bt-mostrar"><i class="fas fa-times" style="color: #ffffff; font-size: 70px; background-color: aquamarine;"></i></button>
-    `
-    document.getElementById("mostra").innerHTML = html1;
+    html = ``;
+    html = `<button class="menu_icon" onclick="window.location.reload()"><img src="https://cdn-icons-png.flaticon.com/512/170/170275.png" id="menuIcon" alt="menu" class="icon"></button>`
+    document.getElementById("menu").innerHTML = html;
 }
 
-function limpa() {
-    window.location.reload(true);
-}
-
-document.getElementById('bt-mostrar').addEventListener('click', function (event) {
-    mostrar();
+document.getElementById("menu_link").addEventListener('click', function (event) {
+    mostrarIndex();
 });

@@ -26,7 +26,7 @@
 .navbar {
     background-color: var(--menu);
     opacity: 0.9;
-    height: 100px;
+    height: 150px;
 }
 
 h1,
@@ -157,18 +157,19 @@ figcaption {
 a {
     color: var(--link);
     font-weight: bolder;
-    font-size: var(--tamanho-font-p);
-    padding-bottom: 20px;
+    font-size: 35px;
+    padding-bottom: 50px;
 }
 
 .banner {
     width: 100%;
-    height: 250px;
+    height: 300px;
 }
 
 p {
-    padding-left: 10px;
+    padding-left: 20px;
     padding-top: 20px;
+    padding-right: 10px ;
     font-size: var(--tamanho-font);
 }
 
@@ -186,8 +187,8 @@ button {
 }
 
 .Icon {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     border: 0;
 
 }

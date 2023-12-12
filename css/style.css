@@ -192,6 +192,14 @@ button {
 
 }
 
+footer{
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    width: 100%;
+    background-color: var(--link);
+}
+
  @media (min-width: 600px) {
     .professor img {
         width: 250px;

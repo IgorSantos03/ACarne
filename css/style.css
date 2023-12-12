@@ -5,8 +5,7 @@
     --background: #fff9d8;
     --text: #f2ecc3;
     --titulos: #f46472;
-    --tamanho-font-p: 17px;
-    --tamanho-font-P: 22px;
+    --tamanho-font-p: 20px;
     --menu: #999175;
     --link: #bed6ab;
 }
@@ -47,6 +46,22 @@ h4 {
     padding-top: 10px;
 }
 
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 37px;
+}
+
+h3{
+    font-size: 34px;
+}
+
+h4{
+    font-size: 30px;
+}
+
 figcaption {
     text-align: center;
 }
@@ -72,6 +87,7 @@ figcaption {
     background-color: #f46472;
     cursor: context-menu;
     margin-top: 15px;
+    margin-right: 50px;
     text-align: center;
 }
 
@@ -82,8 +98,9 @@ figcaption {
 
 .links_instituicao {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .navbar {
@@ -102,14 +119,21 @@ figcaption {
 
 .textos {
     width: 50%;
+    height: 800px;
     border: 1px solid;
     border-radius: 30px;
     padding-bottom: 10px;
     margin-top: 20px;
+    background-color: var(--text);
 }
 
 .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 40%;
+    height: 700px;
 }
 
 .foto img {
@@ -143,6 +167,7 @@ a {
 }
 
 p {
+    padding-left: 10px;
     padding-top: 20px;
     font-size: var(--tamanho-font);
 }
@@ -167,25 +192,39 @@ button {
 
 }
 
-/* @media (min-width: 600px) {
-    h1{
-        font-size: 40px;
-    }
-    h2{
-        font-size: 37px;
-    }
-    h3{
-        font-size: 34px;
-    }
-    p,h4{
-        font-size: var(--tamanho-font-p);
+ @media (min-width: 600px) {
+    .professor img {
+        width: 250px;
+        height: 250px;
+        border-radius: 100px;
     }
 
-    a{
-        font-size: var(--tamanho-font-p);
+    .foto img {
+        width: 400px;
+        height: 450px;
+        margin-top: 90px;
+        margin-left: 15px;
     }
 
-    button{
-        font-size: var(--tamanho-font-p);
+    .textos {
+        width: 50%;
+        height: 600px;
+        border: 1px solid;
+        border-radius: 30px;
+        padding-bottom: 10px;
+        margin-top: 20px;
     }
-} */
+    
+    .foto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        height: 500px;
+    }
+    p{
+        font-size: 20px;
+    }
+
+} 

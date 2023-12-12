@@ -72,10 +72,11 @@ p {
     text-indent: 15px;
 }
 
-.texto_livro{
-    font-size: 30px;
+h6{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
-
 /* divs-organização */ 
 
 .navbar {
@@ -89,7 +90,7 @@ p {
 .navbar {
     background-color: var(--menu);
     opacity: 0.9;
-    height: 150px;
+    height: 100px;
 }
 
 .professores {
@@ -143,6 +144,7 @@ p {
 }
 
 /* buttons e links */
+
 .buttons {
     border-radius: 20px;
     background-color: #f46472;
@@ -168,7 +170,6 @@ button {
     height: 80px;
     font-size: var(--tamanho-font-p);
 }
-
 
 /* imagens */
 
@@ -219,8 +220,8 @@ footer{
     background-color: var(--link);
 }
 
-
  @media (min-width: 600px) {
+    
     .professor img {
         width: 250px;
         height: 250px;
@@ -255,4 +256,16 @@ footer{
         font-size: 20px;
     }
 
+    a{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    h6{
+        font-size: 24px;
+        line-height: 60px;
+    }
+    .navbar{
+        height: 80px;
+    }
 } 

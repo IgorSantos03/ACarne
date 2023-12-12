@@ -111,6 +111,12 @@ figcaption {
     width: 40%;
 }
 
+.foto img {
+    width: 150px;
+    height: 200px;
+    margin-top: 80px;
+}
+
 .menu_Icon {
     background-color: var(--menu);
 }
@@ -140,7 +146,7 @@ p {
 }
 
 .professor img {
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
 
 }
@@ -151,11 +157,7 @@ button {
     font-size: var(--tamanho-font-p);
 }
 
-.foto img {
-    width: 250px;
-    height: 400px;
-    margin-top: 80px;
-}
+
 
 .Icon {
     width: 40px;

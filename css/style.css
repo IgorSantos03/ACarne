@@ -216,6 +216,12 @@ footer{
     background-color: var(--link);
 }
 
+h6{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 10px;
+}
  @media (min-width: 600px) {
     
     .professor img {
@@ -257,7 +263,13 @@ footer{
         margin-bottom: 20px;
     }
 
-
+    h6{
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-indent: 10px;
+    }
+    
     .navbar{
         height: 80px;
     }
